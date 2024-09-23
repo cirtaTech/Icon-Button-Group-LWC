@@ -1,0 +1,75 @@
+.component-container {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    width:100%;
+}
+
+.header {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #eaf5fe;
+}
+
+.button.selected {
+    border: 2px solid #0070D2;
+}
+
+.custom-icon {
+    display: block;
+    border-radius: 50%;
+    --slds-c-icon-color-foreground-default: #ffffff;
+    --slds-c-icon-color-foreground: #ffffff;
+    --slds-c-icon-color-background-default: #084968;
+    --slds-c-icon-color-background: #084968;
+    padding: 10px;
+}
+
+.button p {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.info-area {
+    width: auto;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 20px;
+    background-color: #eaf5fe;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    min-height: 96px;
+}
